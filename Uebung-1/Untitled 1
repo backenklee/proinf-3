@@ -1,0 +1,26 @@
+
+
+18.)
+int x =7;
+while x <12 {
+	< Anweisung >
+	x++
+}
+
+int y = 0, x = 10; while x >y {
+	< Anweisung >
+	y++ ; x--;
+}
+
+for (int a =1024; a >2; a = a/2) {
+	< Anweisung >
+}
+
+
+19.) k erreicht niemals den Wert 2, weil immer raushüpfi
+
+20.) Der kleinstmögliche darstellbare Wert 80 00 00 00 besteht nur aus dem Vorzeichen-Bit
+Dieser Wert - 1 = 7F FF FF FF hat alle Bits, bis auf das Vorzeichen.
+
+21.) I. c bleibt unverändert: lese  c, inkrementiere c, schreibe das gelesene c
+	II. c wird einmal inkrementiert: inkrementiere c, lese c, schreibe ..
