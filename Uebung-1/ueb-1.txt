@@ -1,0 +1,119 @@
+Aufgabe 1
+
+Lieber Admin,
+bitte bestätige meine Anfrage.
+
+xoxo
+
+
+Aufgabe 2
+
+Norbert     ok
+$eins       ok
+_abc123     ok
+#hallihallo nope
+erne$to     nope
+const       nope
+int         nope
+1a          nope
+gRroSs      ok
+k_l-e_i-n   ok
+%nummer     nope
+Class       ok
+klasse      ok
+!wahr       nope
+final       nope
+blablubs    ok
+
+
+Aufgabe 3
+
+a = b       weist Variable a den Wert von Variable b zu
+a == b      gibt true/false zurück, wenn Wert von a und b gleich/ungleich sind
+
+
+Aufgabe 4
+
+a) Alter einer Person:          byte
+b) Name einer Hockeymannschaft  String
+c) Zustand eines Lichtschalters boolean
+d) Geldbetrag ihres Kontos      float
+e) Fläche eines Fussballfeldes  double
+f) Kreiszahl Pi                 double
+
+
+Aufgabe 5
+
+public class Auf5 {
+    
+    public static void main(String[] args) {
+        boolean b1, b2;
+        b1 = false;
+        b2 = false;
+        System.out.println(boolCalc(b1, b2));
+        b2 = true;
+        System.out.println(boolCalc(b1, b2));
+        b1 = true;
+        b2 = false;
+        System.out.println(boolCalc(b1, b2));
+        b2 = true;
+        System.out.println(boolCalc(b1, b2));
+    }
+    
+    public static boolean boolCalc(boolean b1, boolean b2) {
+        return (b1 && b2) || (!b2);
+    }
+
+}
+
+true
+false
+true
+true
+
+
+Aufgabe 6
+
+c = true
+d = false
+e = false
+f = true
+g = false
+
+
+Aufgabe 7
+
+a) 2F + A2 = D1
+b) 07 + FF = 106
+c) FE - A4 = 5A
+
+
+Aufgabe 8
+
+a) 10011011 -> 99
+b) 01100100 -> 154
+c) 11001101 -> 49
+
+
+Aufgabe 9
+
+Bei der impliziten Umwandlung wir z. B. ein double in int gecastet, dabei gehen
+die Nachkommastellen verloren. Ein char wird implizit in ein int gecastet, hier
+wird allerdings der ASCII-Wert zurückgegeben, und nicht das was drinsteht.
+Beim expliziten Casten weiß man (bzw. sollte man wissen) was passiert.
+
+
+Aufgabe 10
+
+a) Geht nicht, weil erst i in char gecastet wird, und nicht das Ergebnis von i&j
+b) ok
+c) bitwise-or geht nicht, weil die Binärdarstellung von ints und floats unterschiedlich ist
+d) ok
+e) Geht nicht, das Ergebnis müsste vorher in char gecastet werden
+f) ok
+g) ok
+h) Geht nicht, int kann nicht in boolena gecastet werden
+
+
+Aufgabe 11
+
