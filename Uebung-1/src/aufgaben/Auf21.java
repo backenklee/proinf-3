@@ -1,5 +1,10 @@
 package aufgaben;
 
+/**
+ * 
+ * @author backenklee
+ *
+ */
 public class Auf21 {
 	
 	public static void main(String[] args) {
