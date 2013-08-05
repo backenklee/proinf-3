@@ -117,3 +117,15 @@ h) Geht nicht, int kann nicht in boolena gecastet werden
 
 Aufgabe 11
 
+
+
+Aufgabe 19
+
+Endlosschleife, k erreicht niemals den Wert 2
+
+
+Aufgabe 20
+
+Der kleinstmögliche darstellbare Wert 80 00 00 00 besteht nur aus dem Vorzeichen-Bit
+Dieser Wert - 1 = 7F FF FF FF hat alle Bits, bis auf das Vorzeichen.
+
