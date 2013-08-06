@@ -1,6 +1,6 @@
 package aufgaben;
 
-public class Auf5 {
+public class Auf05 {
 	
 	public static void main(String[] args) {
 		boolean b1, b2;
