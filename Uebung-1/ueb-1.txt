@@ -14,7 +14,7 @@ const       nope
 int         nope
 1a          nope
 gRroSs      ok
-k_l-e_i-n   ok
+k_l-e_i-n   nope
 %nummer     nope
 Class       ok
 klasse      ok
@@ -109,7 +109,7 @@ d) ok
 e) Geht nicht, das Ergebnis müsste vorher in char gecastet werden
 f) ok
 g) ok
-h) Geht nicht, int kann nicht in boolena gecastet werden
+h) Geht nicht, int kann nicht in boolean gecastet werden
 
 
 Aufgabe 11
