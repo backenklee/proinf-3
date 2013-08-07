@@ -31,7 +31,7 @@ public class Auf06 {
 		}
 	}
 
-	private static void zeigeVektor(int[] f) {
+	public static void zeigeVektor(int[] f) {
 		if (f == null || f.length == 0) {
 			System.out.print("Array putt");
 		} else {

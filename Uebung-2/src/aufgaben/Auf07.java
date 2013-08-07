@@ -16,7 +16,7 @@ public class Auf07 {
 	}
 
 	private static int[] skaVektoren(int d, int[] e) {
-		if ((e == null) || (0 != e.length))
+		if ((e == null) || (0 == e.length))
 			return null;
 		else {
 			int[] res = new int[e.length];
@@ -25,5 +25,12 @@ public class Auf07 {
 			}
 			return res;
 		}
+	}
+	
+	public static void main(String[] args) {
+		int[] v1 = {3, 54, 6, 87, -12};
+		int[] v2 = {76, 1, 4343, -76, 5};
+		Auf06.zeigeVektor(subVektoren(v1, v2));
+		Auf06.zeigeVektor(skaVektoren(3, v2));
 	}
 }
