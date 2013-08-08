@@ -1,19 +1,14 @@
 package aufgaben;
 
 public class Auf05 {
-	
+
 	public static boolean isUpperCase(char c) {
-		if (c >= 65 && c <= 90) {
-			return true;
-		} else {
-			return false;
-		}
+		return c >= 'A' && c <= 'Z';
 	}
-	
+
 	public static char toLowerCase(char c) {
-		if (isUpperCase(c)) {
+		if (isUpperCase(c))
 			c += 32;
-		}
 		return c;
 	}
 
