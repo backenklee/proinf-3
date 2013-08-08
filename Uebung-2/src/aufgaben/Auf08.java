@@ -8,14 +8,14 @@ public class Auf08 {
 
 	private static final double PROBABILITY = 0.5;
 
-	private static final byte ALIVE = 1;
+	private static final boolean ALIVE = true;
 
-	private static final byte DEAD = 0;
+	private static final boolean DEAD = false;
 
-	private static int[][] world;
+	private static boolean[][] world;
 
 	private static void initializeWorld() {
-		world = new int[DIMENSION][DIMENSION];
+		world = new boolean[DIMENSION][DIMENSION];
 		for (int i = 0; i < DIMENSION; i++) {
 			for (int j = 0; j < DIMENSION; j++) {
 				if (Math.random() <= PROBABILITY) {
