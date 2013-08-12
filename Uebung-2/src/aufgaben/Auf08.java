@@ -98,7 +98,7 @@ public class Auf08 {
 				for (int j = 0; j < DIMENSION; j++) {
 					printWorld();
 					try {
-						Thread.sleep(20);
+						Thread.sleep(10);
 					} catch (InterruptedException e) {
 						// Gotta catch 'em all
 						e.printStackTrace();
