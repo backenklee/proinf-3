@@ -2,7 +2,6 @@ package aufgaben;
 
 public class Auf07 {
 
-
 	private static int[] subVektoren(int[] d, int[] e) {
 		if ((d == null || e == null) || (d.length != e.length) || (e.length== 0))
 			return null;
@@ -33,4 +32,5 @@ public class Auf07 {
 		Auf06.zeigeVektor(subVektoren(v1, v2));
 		Auf06.zeigeVektor(skaVektoren(3, v2));
 	}
+
 }

@@ -29,6 +29,8 @@ public class Auf08 {
 
 	private static void printWorld() {
 		try {
+			// This will only work with Linux, for Windows
+			// change "clear" to "cls"
 			Runtime.getRuntime().exec("clear");
 		} catch (IOException e) {
 			// Gotta catch 'em all
@@ -44,10 +46,11 @@ public class Auf08 {
 			}
 			System.out.print("\n");
 		}
-		System.out.print("\n\n\n\n\n\n\n\n\n");
+		System.out.print("\n\n");
 	}
 
 	private static int countNeighbours(int x, int y) {
+		// Caution, extreme ugliness!
 		int numOfNeighbours = 0;
 		if (0 <= x - 1 && x - 1 < DIMENSION && 0 <= y - 1 && y - 1 < DIMENSION
 				&& world[x - 1][y - 1] == ALIVE)
@@ -112,4 +115,5 @@ public class Auf08 {
 	public static void main(String[] args) {
 		startGame();
 	}
+	
 }
