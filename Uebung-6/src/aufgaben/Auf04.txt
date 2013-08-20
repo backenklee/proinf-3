@@ -1,0 +1,7 @@
+Aufgabe 04
+==========
+
+Das Singleton-Muster kann hilfreich bei Spielen oder anderen Programmen sein.
+Dort hat man etwa eine "Hauptklasse", die nacheinander Instanzen von anderen
+benötigten Klassen erzeugt, und Prozeduren startet.
+Von so einer Klasse sollte es (in einem Prozess) nicht mehrere Instanzen geben.

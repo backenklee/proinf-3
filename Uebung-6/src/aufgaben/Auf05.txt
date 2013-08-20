@@ -1,0 +1,6 @@
+Aufgabe 05
+==========
+
+Klassen mit final zu versehen kann durchaus sinnvoll sein, wenn man nicht
+möchte, dass andere diese Klasse erweitern. Zum Beispiel ist die String-Klasse
+von Java final, damit unbedarfte User wie wir keinen Murks damit machen :)

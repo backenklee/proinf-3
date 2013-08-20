@@ -1,0 +1,8 @@
+Aufgabe 03
+==========
+
+Ein Konstruktor wäre hier überflüssig, alle Methoden und Attribute können
+ohne ihn benutzt werden.
+Man könnte allerdings einen Konstruktor benutzen, um Instanzen zu erzeugen,
+und eine statische Zählvariable jedesmal zu inkrementieren, was aber nicht
+unbedingt sinnvoll wäre.
