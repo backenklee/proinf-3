@@ -1,0 +1,11 @@
+Tja, das hängt irgendwie davon ab, wie man die Vielfachen findet...
+
+erastosthenes:O( n^(1/2))
+
+marco:O(n)
+
+optimiert:O(n/2) bc: O(1) wc: O(n)
+
+micha: O(log n) bc: O(1) wc: O(log n)
+
+
